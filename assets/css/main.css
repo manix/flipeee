@@ -2752,7 +2752,14 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 100% !important;
+		}
+		
+		.tiles .major img {
+			width: 48px;
+			height: 48px;
+			margin-right: 10px;
+			vertical-align: middle;
 		}
 
 			.tiles article .image {
